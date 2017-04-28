@@ -1,12 +1,13 @@
-<div>
+<div class="container">
     <h3>Fale Conosco</h3>
-    <form action="" method="post">
-    Nome: <input type="text" name="nome"/><br>
-    E-mail: <input type="email" name="email"/><br>
-    Telefone: <input type="tel" name=""/><br>
-    Assunto: <input type="text" name="assunto"/><br>
-    Mensagem: <textarea name="mensagem" rows="5" cols="10"></textarea><br>
-    <br>
-    <button>Enviar</button>
+    
+ <form  id="contactForm" action="" method="post">
+     
+ <label>Nome:</label> <input type="text" class="form-control" name="nome" required="" data-validation-required-message="Please enter your name.">
+ E-mail: <input type="email" class="form-control" name="email"/>
+ Telefone: <input type="tel" class="form-control" name="telefone"/>
+ Assunto: <input type="text" class="form-control" name="assunto"/>
+ Mensagem:<textarea class="form-control" name="mensagem" rows="5" cols="10"></textarea><br>
+ <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
 </div>

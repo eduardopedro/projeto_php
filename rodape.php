@@ -1,4 +1,4 @@
-<div>
+<footer>
     <hr>
-    <center>Meusite.com - &copy; 2017</center>
-</div>
+    <center>2017 &copy; NacaoCorinthianaaa.com - Direitos Reservados </center>
+</footer>

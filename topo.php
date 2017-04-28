@@ -1,3 +1,3 @@
-<div>
+<header>
     <center><img src="timao.png"/></center>
-</div>
+</header>
